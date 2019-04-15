@@ -1,0 +1,39 @@
+body
+{
+    background-image: url(img/tlo.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    font-size: 28px;
+}
+h1
+{
+    text-align: center;
+    font-size: 80px;
+    letter-spacing: 2px;
+    font-family: 'Cute Font', cursive;
+}
+input[type=button]
+{
+    background-color: #39ff23;
+    outline: none;
+    border-radius: 10px;
+    width: 400px;
+    height: 70px;
+    border: 5px solid #16e000;
+    margin-top: 50px;
+    margin-left: 36.8%;
+    font-size: 38px;
+    transition: all 0.4s ease-in-out;
+}
+input[type=button]:hover
+{
+    background-color: #17dd01;
+    border: 5px solid #04c000;
+    transform: scale(1.1);
+}
+#pojemnik
+{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
