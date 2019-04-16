@@ -22,7 +22,7 @@ function start()
 {
     if(czujnik1 == true || czujnik2 == true)
     {
-        var tekst_do_napisania = ['-Chodźcie wnuki, opowiem wam historię.', 'Podczas lotu samolotem:', '- Hej synu, popatrz przez okno, za niedługo będziemy przelatywać nad jakąś wyspą - powiedziałeś.', 'Uwaga, silnik się uszkodził, proszę zastosować procedurę zabezpieczenia - powiedział pilot.', '- O boże! - krzyczysz', 'Na wyspie:', 'Mineło około 5 godzin.', '- Co się stało - zapytałeś się samego siebie, ale teraz sam sobie wszystko przypominasz - co się stało z moim synem?!', 'Spotykasz trzech żywych ludzi i oni dołączają do ciebie.'];
+        var tekst_do_napisania = ['-Chodźcie wnuki, opowiem wam historię.', 'Podczas lotu samolotem:', '- Hej synu, popatrz przez okno, za niedługo będziemy przelatywać nad jakąś wyspą - powiedziałeś.', '- Uwaga, silnik się uszkodził, proszę zastosować procedurę zabezpieczenia - powiedział pilot.', '- O boże! - krzyczysz', 'Na wyspie:', 'Mineło około 5 godzin.', '- Co się stało - zapytałeś się samego siebie, ale teraz sam sobie wszystko przypominasz - co się stało z moim synem?!', 'Spotykasz trzech żywych ludzi i oni dołączają do ciebie.'];
         var pojemnik = document.querySelector('#pojemnik');
         if (historia1 == 9)
         {
